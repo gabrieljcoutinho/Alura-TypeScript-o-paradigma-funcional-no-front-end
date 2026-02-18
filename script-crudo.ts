@@ -8,6 +8,6 @@ interface EstadoDaAplicacao{
         tarefaSelecionada: Tarefa[]
 }
 
-let estado = {
-    
+let estado: EstadoDaAplicacao = {
+
 }
