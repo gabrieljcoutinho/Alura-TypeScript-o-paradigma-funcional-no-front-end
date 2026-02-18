@@ -7,3 +7,7 @@ interface EstadoDaAplicacao{
         tarefas: Tarefa[]
         tarefaSelecionada: Tarefa[]
 }
+
+let estado = {
+    
+}
