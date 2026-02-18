@@ -26,3 +26,7 @@ let estado: EstadoDaAplicacao = {
 
         tarefaSelecionada: null
 }
+
+function selecionaTarefa(){
+    
+}
