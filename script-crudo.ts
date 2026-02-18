@@ -8,7 +8,7 @@ interface EstadoDaAplicacao{
         tarefaSelecionada: Tarefa | null
 }
 
-let estado: EstadoDaAplicacao = {
+let estadoInicial: EstadoDaAplicacao = {
         tarefas:  [
             {
                 descricao: 'Tarefa concluída',
