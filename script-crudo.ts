@@ -27,3 +27,8 @@ let estado: EstadoDaAplicacao = {
         tarefaSelecionada: null
 }
 
+const selecionarTarefa = (estado: EstadoDaAplicacao, tarefa: Tarefa) : EstadoDaAplicacao => {
+
+
+
+}
