@@ -29,6 +29,9 @@ let estado: EstadoDaAplicacao = {
 
 const selecionarTarefa = (estado: EstadoDaAplicacao, tarefa: Tarefa) : EstadoDaAplicacao => {
 
-
+    return{
+        ...estado,
+        tarefaSelecionada: tarefa === estado.tarefaSelecionada ? null
+    }
 
 }
