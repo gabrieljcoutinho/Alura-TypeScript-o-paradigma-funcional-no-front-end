@@ -9,5 +9,20 @@ interface EstadoDaAplicacao{
 }
 
 let estado: EstadoDaAplicacao = {
-        tarefas:
+        tarefas:  [
+            {
+                descricao: 'Tarefa concluída',
+                concluida: true
+            },
+            {
+                descricao: 'Tarefa pendente 1',
+                concluida: false
+            },
+            {
+                descricao: 'Tarefa pendente 2',
+                concluida: false
+            }
+        ],
+
+        tarefaSelecionada: 
 }
