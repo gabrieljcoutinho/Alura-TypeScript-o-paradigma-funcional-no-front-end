@@ -1,6 +1,6 @@
 interface Tarefa {
         descricao: string
-        concuida: boolean
+        concluida: boolean
 }
 
 interface EstadoDaAplicacao{
