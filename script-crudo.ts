@@ -5,7 +5,7 @@ interface Tarefa {
 
 interface EstadoDaAplicacao{
         tarefas: Tarefa[]
-        tarefaSelecionada: Tarefa[]
+        tarefaSelecionada: Tarefa | null
 }
 
 let estado: EstadoDaAplicacao = {
