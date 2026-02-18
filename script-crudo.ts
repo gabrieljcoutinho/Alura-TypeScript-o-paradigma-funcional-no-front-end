@@ -31,7 +31,7 @@ const selecionarTarefa = (estado: EstadoDaAplicacao, tarefa: Tarefa) : EstadoDaA
 
     return{
         ...estado,
-        tarefaSelecionada: tarefa === estado.tarefaSelecionada ? null
+        tarefaSelecionada: tarefa === estado.tarefaSelecionada ? null : tarefa
     }
 
 }
