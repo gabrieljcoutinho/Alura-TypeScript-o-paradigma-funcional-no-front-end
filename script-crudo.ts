@@ -24,5 +24,5 @@ let estado: EstadoDaAplicacao = {
             }
         ],
 
-        tarefaSelecionada: 
+        tarefaSelecionada: null
 }
