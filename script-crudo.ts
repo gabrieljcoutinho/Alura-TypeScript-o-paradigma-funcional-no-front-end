@@ -9,5 +9,5 @@ interface EstadoDaAplicacao{
 }
 
 let estado: EstadoDaAplicacao = {
-
+        tarefas:
 }
