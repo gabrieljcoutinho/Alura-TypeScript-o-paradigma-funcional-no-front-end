@@ -35,3 +35,5 @@ const selecionarTarefa = (estado: EstadoDaAplicacao, tarefa: Tarefa) : EstadoDaA
     }
 
 }
+
+const atualizar
