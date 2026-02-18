@@ -38,4 +38,5 @@ const selecionarTarefa = (estado: EstadoDaAplicacao, tarefa: Tarefa) : EstadoDaA
 
 const atualizarUI = () => {
     const ulTarefas = document.querySelector('app__section-task-list"')
+    ulTarefas?.innerHTML = ''
 }
