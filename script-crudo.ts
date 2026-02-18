@@ -36,4 +36,6 @@ const selecionarTarefa = (estado: EstadoDaAplicacao, tarefa: Tarefa) : EstadoDaA
 
 }
 
-const atualizarUI
+const atualizarUI = () => {
+    
+}
